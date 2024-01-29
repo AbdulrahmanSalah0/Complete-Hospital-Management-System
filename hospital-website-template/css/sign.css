@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/hero.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 700px; /* Increase the max-width value as needed */
+    padding: 100px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    margin-left: 200px; /* Adjust the left margin as needed */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%; /* Change the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #13C5DD;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #354F8E;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  a {
+    color: #13C5DD;
+  }
+  
+  a:hover {
+    color: #354F8E;
+  }
